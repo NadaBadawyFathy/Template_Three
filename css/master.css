@@ -348,6 +348,10 @@ body{
 }
 .articles .container .box img {
     max-width: 100%;
+    transition: var(--main-transition);
+}
+.articles .container .box:hover img {
+    transform: scale(1.1);
 }
 .articles .container .box .content {
     padding: 20px;
